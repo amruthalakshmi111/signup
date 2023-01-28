@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <title>signupform/login</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 color= ><center>Signup Form</center></h1>
+  <div >
+	
+		<h2>Signup</h2>
+		
+	<form class="text" action="signup" method="post">
+    <label for="fname">firstname</label>
+    <input type="text" id="firstname" name="fname" size=100 value=""><br><br>
+     <label for="lname">lastname</label>
+    <input type="text" id="lastname" name="lname" value=""><br><br>
+		 <label >Email_Address : </label> 
+		<input type="Text" name="Email" required ><br><br>
+		<label>Password : </label> 
+		<input type="Password"  name="Password" required >
+		<br><br> 
+    <label>Phone_Number : </label> 
+		    <input type="Phonenumber"  name="mobile" id="phone" value="000" required ><br><br>
+        <br><br>
+        <label for="">gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+       <input type="radio" name="gender" value="female"> Female
+        <br><br>
+    <label for="">qualification</label>
+    <select name="" id="">
+        <option value="">choose</option>
+        <option value="">plus two</option>
+        <option value="">graduate</option>
+        <option value="">post graduate</option>
+    </select>
+      <br><br>
+    <label for="">skills:
+    </label>
+        <label for="">java</label>
+        <input type="checkbox">
+        <label for="">c</label>
+        <input type="checkbox"><br>
+<br>
+		<input type="submit" value="Submit">
+        </form>
+        <hr><br>
+        Already have an account<button1 type="button" onclick="window.location.href='../login/login.html'">Login</button1>
+</div>
+	
+  
+</body>
+</html>

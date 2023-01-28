@@ -1,0 +1,59 @@
+
+	input{
+	height:100px;
+    max-width:500px;
+    border-color: blue;
+   
+    font-size:50pt;
+    }
+body{
+    height:100px;
+    font-size: 50pt;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: initial;
+    margin: 0;
+}
+
+.text{
+    font-size: 75px;
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: initial;
+    margin: 0;
+    text-justify: distribute;
+    margin-left: 100px;
+   
+}
+input[type=checkbox] {
+
+    width: 40px;
+    height: 40px;
+    margin: center; 
+    text-align:center;
+    margin: 0 5px 0 30px;
+    border-color: rgb(14, 14, 153);
+   }
+   input[type=radio] {
+
+    -ms-transform: scale(6); /* IE */
+    -moz-transform: scale(6); /* FF */
+    -webkit-transform: scale(6); /* Safari and Chrome */
+    -o-transform: scale(6); /* Opera */
+   align-items: center;
+   border-radius: 5px;
+   border-color: blue;
+   
+   }
+   
+   select {
+    
+    height:100px;
+    max: width 1000pl;
+    font-size: 50px;
+    border-color: rgb(14, 14, 153);
+    font-weight: bold;
+    font-family: sans-serif;
+    line-height: initial;
+    margin: 0;
+}
